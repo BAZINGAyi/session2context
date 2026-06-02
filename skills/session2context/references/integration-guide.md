@@ -86,7 +86,7 @@ alwaysApply: true
 ## 首次使用
 
 1. 按上方模板，为你常用的平台创建**一个**带标记区块的指令配置文件
-2. 运行 session2context skill（说"session2context"或"总结本次习惯"）
+2. 在对话中显式点名触发（说 "session2context" 或 "运行 session2context"）
 3. skill 完成提炼后，会自动读取 `preferences/` 各文件内容，生成描述，调用脚本填入 `<!-- s2c:start/end -->` 区块
 
 > 脚本只负责在已存在的标记区块内注入，**不会自动创建文件**。若 skill 提示"未找到注入目标"，说明你还没按第 1 步创建带标记的文件。
