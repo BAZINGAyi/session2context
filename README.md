@@ -40,6 +40,8 @@ LLM 上下文              ← 偏好自动注入，无需重复交代
 
 ## 安装
 
+**方式一：手动复制**
+
 将 `session2context/` 文件夹复制到你项目的 `skills/` 目录下：
 
 ```
@@ -50,6 +52,12 @@ your-project/
         ├── scripts/
         └── references/
 ```
+
+**方式二：让 AI Agent 来装**
+
+在对话中直接对 Agent 说：
+
+> 这是一个 skill，git clone https://github.com/BAZINGAyi/session2context 并安装到当前 Agent 的 skills 目录。
 
 ---
 
